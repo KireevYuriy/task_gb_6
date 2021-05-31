@@ -15,7 +15,3 @@ with open('nginx_logs.txt', 'r', encoding='UTF-8') as f:
         array_tuple.append(array)
         line_f = f.readline().strip()
 print(array_tuple)
-
-
-
-
