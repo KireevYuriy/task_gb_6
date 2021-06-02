@@ -33,7 +33,6 @@ def edit_price(arg):
         i = 1
         while file_lines:
             if i == int(idx):
-
                 file_lines = file_lines.replace(file_lines, value)
                 f.seek(0)
                 f.writelines(file_lines)
